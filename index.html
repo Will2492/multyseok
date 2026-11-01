@@ -44,7 +44,7 @@ img{max-width:100%;display:block}
 /* Header */
 .header{position:sticky;top:0;z-index:50;background:rgba(17,19,24,.96);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.09);color:#fff}
 .header .container{display:flex;align-items:center;justify-content:space-between;min-height:76px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px;gap:12px}
-.logo img{height:40px;width:auto;filter:brightness(0) saturate(100%) invert(56%) sepia(58%) saturate(1476%) hue-rotate(341deg) brightness(99%) contrast(93%);}
+.logo img{height:40px;width:auto}
 .header-right{display:flex;align-items:center;gap:18px;margin-left:auto}
 .header-hours{font-size:12px;color:#b8bbc3;line-height:1.35;text-align:right}
 .soc{display:flex;gap:6px}
@@ -705,11 +705,11 @@ img{max-width:100%;display:block}
   </div>
 </section>
 
-<!-- Kontakt -->
+<!-- Kontakt (без дублирования карты внутри) -->
 <section id="sec-contact" class="info-section">
   <div class="container">
     <a class="back-link" href="#home">← Wróć na stronę główną</a>
-    <div class="info-text" style="max-width:100%">
+    <div class="info-text">
       <div class="section-kicker">KONTAKT</div>
       <h2>Warszawa</h2>
       <ul>
@@ -718,12 +718,8 @@ img{max-width:100%;display:block}
         <li><b>Telefon:</b> <a href="tel:+48735666657" style="color:var(--brand);font-weight:800">+48 735 666 657</a></li>
         <li><b>Komunikatory:</b> <a href="https://wa.me/48735666657" target="_blank" rel="noopener" style="color:var(--brand);font-weight:800">WhatsApp</a> · <a href="https://t.me/multy_pl" target="_blank" rel="noopener" style="color:var(--brand);font-weight:800">Telegram</a></li>
       </ul>
-      <button class="btn" type="button" data-open="repair" style="margin-top:20px; margin-bottom: 30px;">Zleć naprawę i wycenę</button>
+      <button class="btn" type="button" data-open="repair" style="margin-top:20px">Zleć naprawę i wycenę</button>
     </div>
-  </div>
-  <!-- Встроенная карта в секции контактов -->
-  <div class="footer-map-container" style="margin-top: 20px;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2446.495201170364!2d21.0028!3d52.1798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8a248f7d95%3A0x6b77df4ebdbcf6bc!2sOrzycka%206%2C%2002-695%20Warszawa!5e0!3m2!1sru!2spl!4v1650000000000!5m2!1sru!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Multy Service – lokalizacja"></iframe>
   </div>
 </section>
 
