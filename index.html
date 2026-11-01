@@ -44,9 +44,7 @@ img{max-width:100%;display:block}
 /* Header */
 .header{position:sticky;top:0;z-index:50;background:rgba(17,19,24,.96);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.09);color:#fff}
 .header .container{display:flex;align-items:center;justify-content:space-between;min-height:76px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px;gap:12px}
-.logo img{height:46px;width:auto}
-.logo-text{display:inline-flex;flex-direction:column;align-items:center;line-height:.85;font-family:'Arial Rounded MT Bold','Manrope',system-ui,sans-serif;font-weight:800;font-size:38px;letter-spacing:-.05em;color:var(--brand)}
-.logo-text small{font-size:10px;letter-spacing:.02em;font-weight:800;margin-top:1px;color:#b8661f}
+.logo img{height:40px;width:auto;filter:brightness(0) saturate(100%) invert(56%) sepia(58%) saturate(1476%) hue-rotate(341deg) brightness(99%) contrast(93%);}
 .header-right{display:flex;align-items:center;gap:18px;margin-left:auto}
 .header-hours{font-size:12px;color:#b8bbc3;line-height:1.35;text-align:right}
 .soc{display:flex;gap:6px}
@@ -92,7 +90,7 @@ img{max-width:100%;display:block}
 .adv strong{display:block;font-size:18px;font-weight:800;color:#171a20}
 .adv span{font-size:13px;color:var(--muted)}
 
-/* Info sections (O firmie / Kontakt / B2B) */
+/* Info sections */
 .info-section{padding:70px 0 90px;background:#fff;display:none;min-height:60vh}
 .info-section.active{display:block}
 .info-text{max-width:820px}
@@ -200,7 +198,7 @@ img{max-width:100%;display:block}
 @media(max-width:700px){
  .container{padding-left:19px;padding-right:19px}
  .header .container{gap:8px;min-height:auto;padding-top:10px;padding-bottom:10px}
- .logo img{height:38px}
+ .logo img{height:34px}
  .soc{gap:5px}
  .soc a{width:34px;height:34px}
  .hero{padding:70px 0 62px}
@@ -266,7 +264,7 @@ img{max-width:100%;display:block}
 
 <header class="header">
   <div class="container">
-    <a class="logo" href="#home"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS4AAAB4CAYAAABM4B8dAABxq0lEQVR42u19d5xdVbX/d619bpteM+k9AZKQUBKKIgGfqWqxozkCgAKHlSNAh0hCeiN9Mr3de8/Zr9y3N91fP33O0JqO40Z0U0wM1wH53BfT6sQ6r26X6dKxQnLlypUwR36J98KFf1YBYs4AAYsAAAAAElFTkSuQmCC" alt="Multy Service" width="302" height="120"></a>
+    <a class="logo" href="#home"><img src="https://multy.pl/assets/img/header/logo@2x.png" alt="Multy Service"></a>
 
     <div class="header-right">
       <div class="header-hours">Pn–Pt: 10:00–19:00<br>Sb: 10:00–17:00<br>Nd: wolne</div>
